@@ -1,0 +1,12 @@
+### CONFIGURAÇÃO DO OPENFORTIVPN
+### Preencha com os dados da sua empresa
+
+host = ip.do.gateway.da.empresa
+port = 443
+username = SEU_USUARIO
+password = SUA_SENHA
+
+### Configurações adicionais de segurança (geralmente necessárias)
+# trusted-cert = (o terminal vai te dar um código hash na primeira vez, você cola aqui)
+set-dns = 0
+pppd-use-peerdns = 1
